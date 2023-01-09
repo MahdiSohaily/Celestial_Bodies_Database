@@ -83,3 +83,20 @@ ALTER SEQUENCE public.details_details_id_seq OWNED BY public.details.details_id;
 -- Name: galaxy; Type: TABLE; Schema: public; Owner: freecodecamp
 --
 
+CREATE TABLE public.galaxy (
+    galaxy_id integer NOT NULL,
+    name character varying(30) NOT NULL,
+    description text NOT NULL,
+    galaxy_type character varying(30) NOT NULL,
+    has_life boolean NOT NULL,
+    distance_from_earth integer NOT NULL,
+    age_in_millions_of_years integer NOT NULL,
+    area numeric(4,1)
+);
+
+
+ALTER TABLE public.galaxy OWNER TO freecodecamp;
+
+--
+-- Name: galaxy_galaxy_id_seq; Type: SEQUENCE; Schema: public; Owner: freecodecamp
+--
