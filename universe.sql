@@ -46,6 +46,7 @@ SET default_table_access_method = heap;
 --
 -- Name: details; Type: TABLE; Schema: public; Owner: freecodecamp
 --
+
 CREATE TABLE public.details (
     details_id integer NOT NULL,
     area numeric(4,1) NOT NULL,
@@ -282,6 +283,7 @@ INSERT INTO public.details VALUES (21, 760.0, 380.0, 3, 'Mackenzie');
 INSERT INTO public.details VALUES (25, 832.0, 278.0, 12, 'Ryann');
 INSERT INTO public.details VALUES (26, 632.0, 923.0, 8, 'Adrea');
 
+
 --
 -- Data for Name: galaxy; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
@@ -449,6 +451,7 @@ INSERT INTO public.planet VALUES (24, 'Corrina', 'Quisque id justo sit amet sapi
 Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.
 
 In congue. Etiam justo. Etiam pretium iaculis justo.', false, 10, 872, 7);
+
 
 --
 -- Data for Name: star; Type: TABLE DATA; Schema: public; Owner: freecodecamp
@@ -678,4 +681,3 @@ ALTER TABLE ONLY public.star
 --
 -- PostgreSQL database dump complete
 --
-
