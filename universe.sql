@@ -270,3 +270,14 @@ ALTER TABLE ONLY public.star ALTER COLUMN star_id SET DEFAULT nextval('public.st
 --
 -- Data for Name: details; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
+
+INSERT INTO public.details VALUES (1, 832.0, 278.0, 10, 'Ryann');
+INSERT INTO public.details VALUES (2, 632.0, 923.0, 4, 'Adrea');
+INSERT INTO public.details VALUES (3, 152.0, 822.0, 9, 'Ash');
+INSERT INTO public.details VALUES (4, 522.0, 27.0, 11, 'Trey');
+INSERT INTO public.details VALUES (6, 560.0, 829.0, 7, 'Russ');
+INSERT INTO public.details VALUES (7, 646.0, 724.0, 5, 'Beilul');
+INSERT INTO public.details VALUES (20, 43.0, 913.0, 6, 'Antonie');
+INSERT INTO public.details VALUES (21, 760.0, 380.0, 3, 'Mackenzie');
+INSERT INTO public.details VALUES (25, 832.0, 278.0, 12, 'Ryann');
+INSERT INTO public.details VALUES (26, 632.0, 923.0, 8, 'Adrea');
