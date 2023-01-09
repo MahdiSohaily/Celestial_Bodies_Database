@@ -198,3 +198,18 @@ ALTER SEQUENCE public.planet_planet_id_seq OWNED BY public.planet.planet_id;
 --
 -- Name: star; Type: TABLE; Schema: public; Owner: freecodecamp
 --
+
+CREATE TABLE public.star (
+    star_id integer NOT NULL,
+    name character varying(30) NOT NULL,
+    description text NOT NULL,
+    age_in_million_of_years integer NOT NULL,
+    galaxy_id integer NOT NULL
+);
+
+
+ALTER TABLE public.star OWNER TO freecodecamp;
+
+--
+-- Name: star_start_id_seq; Type: SEQUENCE; Schema: public; Owner: freecodecamp
+--
