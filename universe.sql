@@ -213,3 +213,14 @@ ALTER TABLE public.star OWNER TO freecodecamp;
 --
 -- Name: star_start_id_seq; Type: SEQUENCE; Schema: public; Owner: freecodecamp
 --
+
+CREATE SEQUENCE public.star_start_id_seq
+    AS integer
+    START WITH 1
+    INCREMENT BY 1
+    NO MINVALUE
+    NO MAXVALUE
+    CACHE 1;
+
+
+ALTER TABLE public.star_start_id_seq OWNER TO freecodecamp;
