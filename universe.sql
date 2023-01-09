@@ -46,3 +46,13 @@ SET default_table_access_method = heap;
 --
 -- Name: details; Type: TABLE; Schema: public; Owner: freecodecamp
 --
+CREATE TABLE public.details (
+    details_id integer NOT NULL,
+    area numeric(4,1) NOT NULL,
+    diameter numeric(4,1) NOT NULL,
+    planet_id integer NOT NULL,
+    name character varying(30) NOT NULL
+);
+
+
+ALTER TABLE public.details OWNER TO freecodecamp;
